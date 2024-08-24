@@ -14,6 +14,7 @@
 		A72DE2D72C18908100B3306C /* GraphicsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DE2D62C18908100B3306C /* GraphicsDemoTests.swift */; };
 		A72DE2E12C18908100B3306C /* GraphicsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DE2E02C18908100B3306C /* GraphicsDemoUITests.swift */; };
 		A72DE2E32C18908100B3306C /* GraphicsDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DE2E22C18908100B3306C /* GraphicsDemoUITestsLaunchTests.swift */; };
+		A72DE2F02C1890E100B3306C /* CocoaGraphicsDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DE2EF2C1890E100B3306C /* CocoaGraphicsDriver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A72DE2DC2C18908100B3306C /* GraphicsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72DE2E02C18908100B3306C /* GraphicsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsDemoUITests.swift; sourceTree = "<group>"; };
 		A72DE2E22C18908100B3306C /* GraphicsDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A72DE2EF2C1890E100B3306C /* CocoaGraphicsDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaGraphicsDriver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A72DE2C82C18908100B3306C /* Assets.xcassets */,
 				A72DE2CD2C18908100B3306C /* GraphicsDemo.entitlements */,
 				A72DE2CA2C18908100B3306C /* Preview Content */,
+				A72DE2EF2C1890E100B3306C /* CocoaGraphicsDriver.swift */,
 			);
 			path = GraphicsDemo;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72DE2F02C1890E100B3306C /* CocoaGraphicsDriver.swift in Sources */,
 				A72DE2C72C18908000B3306C /* ContentView.swift in Sources */,
 				A72DE2C52C18908000B3306C /* GraphicsDemoApp.swift in Sources */,
 			);
