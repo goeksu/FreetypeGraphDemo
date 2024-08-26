@@ -17,13 +17,12 @@ struct ContentView: View {
         .frame(width: 800, height: 600)
     }
 
-    // test bitmap for creating a gradient
+    // Example test bitmap function
     private func updateTestBitmap() {
         let width = 800
         let height = 600
         var bitmap = [UInt8](repeating: 0, count: width * height * 4)
 
-   
         for y in 0..<height {
             for x in 0..<width {
                 let offset = (y * width + x) * 4
@@ -37,7 +36,6 @@ struct ContentView: View {
         graphicsDriver.updateBitmap(bitmap, width: width, height: height)
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
